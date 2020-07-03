@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/libs/libs.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>English app</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header" id="header">
+            <button class="header__button" id="header__button">
+                <span class="header__button-line"></span>
+                <span class="header__button-line"></span>
+                <span class="header__button-line"></span>
+            </button>
+            <ol class="learned-list hide" id="learned-list" start="0">
+                <li class="learned-list__title">Выученные слова:</li>
+            </ol>
+        </header>
+
+        <main class='main'>
+            <div class="word-generator">
+                <div class="word-generator__word" id="word-generator__word"></div>
+                <div class="word-generator__translate-word opacity" id="word-generator__translate-word">привет</div>
+                <button class="word-generator__button" id="word-generator__button">Включить перевод</button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <button class="footer__button footer__button-left" id="footer__button-left">Я знаю это слово</button>
+            <button class="footer__button footer__button-right" id="footer__button-right">Учить слово</button>
+        </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

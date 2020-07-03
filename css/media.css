@@ -1,0 +1,14 @@
+@media (min-width: 800px) {
+  html {
+    font-size: 1vmax;
+  }
+  .word-generator__word {
+    font-size: 4rem;
+  }
+  .word-generator__translate-word {
+    font-size: 2rem;
+  }
+  .footer__button {
+    font-size: 1.5rem;
+  }
+}
